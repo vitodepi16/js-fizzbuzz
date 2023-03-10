@@ -1,0 +1,24 @@
+:root{
+    /* Color styles */
+--bg-main: #083B4C;
+--bg-square: #1389B2;
+--bg-fizz: #0CD6A1;
+--buzz: #FFD166;
+--fizzbuzz: #F0466F;
+
+}
+body{
+    background-color: var(--bg-main);
+}
+
+.square{
+    width: 50px;
+    height: 50px;
+  
+}
+.squareitem{
+    background-color: var(--bg-square);
+    color: white;
+    width: 100%;
+    width: 100%;
+}
