@@ -12,13 +12,23 @@ body{
 }
 
 .square{
-    width: 50px;
-    height: 50px;
-  
+    width: 100px;
+    height: 100px;
+    padding: 5px;
 }
 .squareitem{
     background-color: var(--bg-square);
     color: white;
     width: 100%;
-    width: 100%;
+    height: 100%;
+}
+.fizzbuzz{
+    background-color: var(--fizzbuzz);
+}
+
+.buzz{
+    background-color: var(--buzz);
+}
+.fizz{
+    background-color: var(--bg-fizz);
 }
